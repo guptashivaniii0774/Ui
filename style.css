@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
+
 }
 .home {
   width: 100%;
@@ -36,16 +37,20 @@ nav img {
 
 .TextSide {
   width: 45%;
-  /* min-height: 70vh; */
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .TextSide h1 {
-  font-size: 70px;
+  font-size: 90px;
+  display: flex;
+  flex-wrap:wrap ;
   color: white;
+}
+.TextSide img{
+  width: 400px;
 }
 
 .ImgSide {
@@ -77,8 +82,11 @@ footer {
 @media(max-width:768px) {
 .Container{
 display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   
+}
+.TextSide h1 {
+  font-size: 70px;
 }
 
 }
