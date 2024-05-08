@@ -6,11 +6,11 @@
 }
 .home {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 nav {
   width: 100%;
-  height: 15vh;
+  min-height: 15vh;
   display: flex;
   align-items: center;
   padding: 10px 50px;
@@ -21,7 +21,7 @@ nav img {
 
 .Container {
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@ nav img {
 
 .TextSide {
   width: 45%;
-  height: 70vh;
+  /* min-height: 70vh; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -50,7 +50,7 @@ nav img {
 
 .ImgSide {
   width: 55%;
-  height: 70vh;
+  /* min-height: 70vh; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -62,7 +62,7 @@ nav img {
 }
 footer {
   width: 100%;
-  height: 15vh;
+  min-height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,6 +78,7 @@ footer {
 .Container{
 display: flex;
   flex-direction: column;
+  
 }
 
 }
